@@ -19,7 +19,10 @@ def getKey(keyName):
 
 
 def main():
-    print(getKey('a'))
+    if getKey("LEFT"):
+        print("Left key pressed")
+    if getKey("RIGHT"):
+        print("Right key pressed")
 
 
 if __name__ == "__main__":
